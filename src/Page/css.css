@@ -1,0 +1,46 @@
+#body {
+  background-color: #35c1d8;
+}
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.brand-img-container {
+  width: 100px;
+  height: 100px;
+  border: 1 solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#brand-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+#brand-name {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: -5px;
+}
+#brand-description {
+  width: 300px;
+}
+#basic-info {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+}
+#button-list {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.bordered {
+  border: black dashed;
+}
